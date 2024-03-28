@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "reshot-icon-snow-cloud-TPC7FB3GAV.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

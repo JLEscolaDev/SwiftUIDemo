@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "reshot-icon-circle-in-a-circle-SMFCUHPJ5Y-f3291.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "reshot-icon-online-profile-54Z6DBEYJR.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

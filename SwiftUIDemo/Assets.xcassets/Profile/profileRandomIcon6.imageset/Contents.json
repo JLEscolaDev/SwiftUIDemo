@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "reshot-icon-student-profile-8H2QZ93G6J.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

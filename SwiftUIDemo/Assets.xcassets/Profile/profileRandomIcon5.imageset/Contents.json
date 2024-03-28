@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "reshot-icon-profile-TU2A3L4YNZ.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
