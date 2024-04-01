@@ -1,0 +1,239 @@
+[
+    {
+        "id": "f0c6b58f-4d8a-4b8c-8d2a-12b4834e0a98",
+        "nombreReal": "Juan Martínez",
+        "apodo": "TeleMente",
+        "descripcion": "Después de un accidente en un laboratorio de neurociencia, Juan adquirió la capacidad de leer y manipular pensamientos.",
+        "edad": 32,
+        "poderes": [
+            "Telepatía"
+        ],
+        "imagen": "telemente"
+    },
+    {
+        "id": "a07c5e7b-a2b3-4a0e-9e2c-29f2d7b4d078",
+        "nombreReal": "Laura Blanco",
+        "apodo": "Ala de Águila",
+        "descripcion": "Laura siempre soñó con volar. Un encuentro con un águila mística le otorgó el don del vuelo.",
+        "edad": 28,
+        "poderes": [
+            "Vuelo"
+        ],
+        "imagen": "alaDeAguila"
+    },
+    {
+        "id": "b627f3c3-3f8a-41a1-9c81-2f4255b5f1fc",
+        "nombreReal": "Miguel Torres",
+        "apodo": "Roca",
+        "descripcion": "Miguel puede levantar objetos de toneladas sin esfuerzo gracias a una maldición de un dios olvidado.",
+        "edad": 35,
+        "poderes": [
+            "Super Fuerza"
+        ],
+        "imagen": "roca"
+    },
+    {
+        "id": "d75f3c93-2d5a-4a1e-8f1c-3e5d6c1e0b79",
+        "nombreReal": "Elena García",
+        "apodo": "Sombra",
+        "descripcion": "Elena descubrió su habilidad para volverse invisible después de un misterioso encuentro en un bosque encantado. Ahora, utiliza su poder para operar en secreto y proteger a los inocentes.",
+        "edad": 29,
+        "poderes": [
+            "Invisibilidad",
+            "Teletransportación"
+        ],
+        "imagen": "sombra"
+    },
+    {
+        "id": "e62d4c7b-9c5a-4d3e-8a3c-2f9d5e5d1a86",
+        "nombreReal": "Daniel Ortiz",
+        "apodo": "Cronos",
+        "descripcion": "Daniel puede alterar y viajar en el tiempo después de encontrar un antiguo reloj en una excavación arqueológica. Con este poder, busca corregir errores del pasado y asegurar un futuro mejor.",
+        "edad": 34,
+        "poderes": [
+            "Manipulación del Tiempo"
+        ],
+        "imagen": "cronos"
+    },
+    {
+        "id": "f23d5e7a-2b4c-4a9d-9e3d-2d5e6f7e0g89",
+        "nombreReal": "Isabel Ruiz",
+        "apodo": "Elementa",
+        "descripcion": "Isabel puede controlar y manipular los elementos naturales. Un ritual ancestral le otorgó el don de dominar fuego, agua, tierra y aire a su antojo.",
+        "edad": 27,
+        "poderes": [
+            "Control Elemental",
+            "Telepatía"
+        ],
+        "imagen": "elementa"
+    },
+    {
+        "id": "b43g5j78-1a2d-5g6h-7i8j-9k1l2m3n4o5p",
+        "nombreReal": "Luis Fernández",
+        "apodo": "Reflejo",
+        "descripcion": "Luis puede crear duplicados exactos de sí mismo que actúan de forma independiente. Estos duplicados son temporales y desaparecen después de un tiempo. Utiliza este poder para estar en múltiples lugares a la vez, ayudando a quien lo necesita.",
+        "edad": 28,
+        "poderes": [
+            "Duplicación"
+        ],
+        "imagen": "reflejo"
+    },
+    {
+        "id": "c56n7o89-0p9o-8l7m-6n5b-4v3c2x1z0a9s",
+        "nombreReal": "Carmen Morales",
+        "apodo": "Eco",
+        "descripcion": "Carmen puede imitar y amplificar cualquier sonido que haya escuchado, utilizando estas habilidades para comunicarse, desorientar a sus enemigos o incluso como una forma de sonar.",
+        "edad": 26,
+        "poderes": [
+            "Imitación de Sonido",
+            "Amplificación del Sonido"
+        ],
+        "imagen": "eco"
+    },
+    {
+        "id": "d67p8q90-1z2a-3x4w-5e6r-7t8y9u0i1o2p",
+        "nombreReal": "Miguel Álvarez",
+        "apodo": "Pulso",
+        "descripcion": "Miguel puede generar y controlar vibraciones a su antojo. Ya sea para causar terremotos, crear barreras de ondas de choque o incluso volar al vibrar a altas velocidades.",
+        "edad": 30,
+        "poderes": [
+            "Generación de Vibraciones",
+            "Control de Vibraciones"
+        ],
+        "imagen": "pulso"
+    },
+    {
+        "id": "e78r9s01-2t3y-4u5i-6o7p-8a9s0d1f2g3h",
+        "nombreReal": "Beatriz Jiménez",
+        "apodo": "LuzEstelar",
+        "descripcion": "Beatriz puede manipular y emitir luz de diferentes intensidades y colores. Utiliza esta habilidad para iluminar lugares oscuros, crear ilusiones ópticas o incluso emitir destellos cegadores para defenderse de adversarios.",
+        "edad": 29,
+        "poderes": [
+            "Manipulación de la Luz",
+            "Emisión de Luz"
+        ],
+        "imagen": "luzEstelar"
+    },
+    {
+        "id": "f89t0a12-3b4c-5d6e-7f8g-9h0i1j2k3l4m",
+        "nombreReal": "Pedro Sánchez",
+        "apodo": "Giro",
+        "descripcion": "Pedro tiene la habilidad de girar sobre sí mismo a velocidades increíbles, creando tornados o simplemente moviéndose rápidamente de un lugar a otro. A menudo se le ve como un torbellino en movimiento cuando usa su poder al máximo.",
+        "edad": 31,
+        "poderes": [
+            "Giro Rápido",
+            "Creación de Tornados"
+        ],
+        "imagen": "giro"
+    },
+    {
+        "id": "g90u1b23-4c5d-6e7f-8g9h-0i1j2k3l4m5n",
+        "nombreReal": "Sara López",
+        "apodo": "Geo",
+        "descripcion": "Sara puede manipular la tierra y las rocas a su antojo. Desde levantar muros de piedra hasta causar pequeños terremotos, Geo es una fuerza a tener en cuenta cuando está conectada con el suelo.",
+        "edad": 27,
+        "poderes": [
+            "Manipulación de la Tierra",
+            "Creación de Rocas"
+        ],
+        "imagen": "geo"
+    },
+    {
+        "id": "f2d96ab3-df71-4f0e-8b44-bd7f8e7f5fca",
+        "nombreReal": "Lucas Ortega",
+        "apodo": "Vórtex",
+        "historia": "Lucas, un físico teórico, experimentó con la manipulación de la energía y los campos magnéticos. Un accidente en su laboratorio lo transformó en 'Vórtex', con la capacidad de crear y controlar tornados y remolinos a su voluntad.",
+        "edad": 29,
+        "poderes": [
+            "Manipulación del Clima",
+            "Teletransportación"
+        ],
+        "imagen": "vortex"
+    },
+    {
+        "id": "c23f1b9d-97f3-4b5f-9044-e69d5a7f8c8b",
+        "nombreReal": "Diana Ruiz",
+        "apodo": "Psique",
+        "historia": "Diana, una psicóloga talentosa, siempre tuvo una conexión especial con la mente humana. Después de un encuentro cercano con una misteriosa reliquia, descubrió que podía proyectar sus pensamientos y emociones en otros, influenciando sus acciones y sentimientos.",
+        "edad": 32,
+        "poderes": [
+            "Manipulación Mental",
+            "Telepatía"
+        ],
+        "imagen": "psique"
+    },
+    {
+        "id": "1a4f20b8-1f97-42e4-a0d2-b0ec1f91b68f",
+        "nombreReal": "Javier Molina",
+        "apodo": "Titán",
+        "historia": "Javier, un arqueólogo, descubrió una antigua armadura durante una expedición. Al ponérsela, se transformó en 'Titán', un guerrero invencible con una fuerza y resistencia sobrenaturales.",
+        "edad": 38,
+        "poderes": [
+            "Super Fuerza",
+            "Invulnerabilidad"
+        ],
+        "imagen": "titan"
+    },
+    {
+        "id": "f36b48b0-5f6a-4359-b169-a1d5c587db1c",
+        "nombreReal": "Carla Martínez",
+        "apodo": "Armadura",
+        "historia": "Carla era una ingeniera que, tras un accidente en su laboratorio, se fusionó con un metal desconocido que le otorgó una piel impenetrable. Ahora lucha contra el crimen protegiendo a quienes no pueden protegerse a sí mismos.",
+        "edad": 28,
+        "poderes": [
+            "Piel Metálica",
+            "Super Fuerza"
+        ],
+        "imagen": "armadura"
+    },
+    {
+        "id": "4a83cb7a-8b8f-4235-96a5-b9d6c00854c8",
+        "nombreReal": "Hugo Valdez",
+        "apodo": "Tempestad",
+        "historia": "Hugo, un meteorólogo, fue alcanzado por un rayo mientras investigaba una tormenta anómala. Como resultado, ganó la capacidad de controlar el clima. Usa sus poderes para prevenir desastres naturales y ayudar en situaciones de emergencia.",
+        "edad": 34,
+        "poderes": [
+            "Manipulación del Clima",
+            "Vuelo"
+        ],
+        "imagen": "tempestad"
+    },
+    {
+        "id": "9fe2a0c7-478e-44a5-9866-fd545d3f8e8e",
+        "nombreReal": "Lucía Ortega",
+        "apodo": "Sirena",
+        "historia": "Lucía, una bióloga marina, descubrió una cueva submarina secreta donde encontró un tridente místico. Al tocarlo, se transformó en la protectora de los océanos con la capacidad de comunicarse con la vida marina y controlar el agua.",
+        "edad": 26,
+        "poderes": [
+            "Manipulación del agua",
+            "Comunicación con vida marina",
+            "Transformación en forma acuática"
+        ],
+        "imagen": "sirena"
+    },
+    {
+        "id": "1faa76f6-7e1d-4f0d-9c0d-6c1c2d4c6b69",
+        "nombreReal": "Tomás Guerrero",
+        "apodo": "Eclipse",
+        "historia": "Tomás era un astrónomo que, durante un raro eclipse, fue transportado a otra dimensión. Al regresar, trajo consigo el poder de manipular las sombras y moverse a través de ellas.",
+        "edad": 31,
+        "poderes": [
+            "Manipulación de sombras",
+            "Teletransportación a través de sombras"
+        ],
+        "imagen": "eclipse"
+    },
+    {
+        "id": "f7cc673c-e1f0-4d2f-8f6d-ea3a1f2eefc9",
+        "nombreReal": "Sofía Ríos",
+        "apodo": "Fénix",
+        "historia": "Sofía, después de un trágico accidente, renació de sus cenizas como el mítico Fénix. Posee la habilidad de regenerarse y lanzar llamas ardientes.",
+        "edad": 29,
+        "poderes": [
+            "Regeneración",
+            "Manipulación del fuego",
+            "Vuelo"
+        ],
+        "imagen": "fenix"
+    }
+]

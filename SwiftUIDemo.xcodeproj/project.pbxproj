@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		787D4EBA2BB57522001EEE0F /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787D4EB92BB57522001EEE0F /* WeatherView.swift */; };
+		787D4EBC2BB5752D001EEE0F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787D4EBB2BB5752D001EEE0F /* ProfileView.swift */; };
+		787D4EBE2BB57539001EEE0F /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787D4EBD2BB57539001EEE0F /* TaskListView.swift */; };
+		787D4EC02BB5754B001EEE0F /* HeroesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787D4EBF2BB5754B001EEE0F /* HeroesView.swift */; };
+		787D4EC62BB59E65001EEE0F /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787D4EC52BB59E65001EEE0F /* WeatherViewModel.swift */; };
+		787D4EC82BB5AC3A001EEE0F /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787D4EC72BB5AC3A001EEE0F /* ProfileViewModel.swift */; };
+		787D4ECD2BB5EC60001EEE0F /* SuperHeroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 787D4ECC2BB5EC60001EEE0F /* SuperHeroes.json */; };
+		787D4ECF2BB5ED00001EEE0F /* HeroesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787D4ECE2BB5ED00001EEE0F /* HeroesViewModel.swift */; };
 		78840C772BB3463D00278C27 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78840C762BB3463D00278C27 /* SwiftUIDemoApp.swift */; };
 		78840C792BB3463D00278C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78840C782BB3463D00278C27 /* ContentView.swift */; };
 		78840C7B2BB3463E00278C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78840C7A2BB3463E00278C27 /* Assets.xcassets */; };
@@ -22,6 +30,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		787D4EB92BB57522001EEE0F /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		787D4EBB2BB5752D001EEE0F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		787D4EBD2BB57539001EEE0F /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		787D4EBF2BB5754B001EEE0F /* HeroesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesView.swift; sourceTree = "<group>"; };
+		787D4EC52BB59E65001EEE0F /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		787D4EC72BB5AC3A001EEE0F /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		787D4ECC2BB5EC60001EEE0F /* SuperHeroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SuperHeroes.json; sourceTree = "<group>"; };
+		787D4ECE2BB5ED00001EEE0F /* HeroesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewModel.swift; sourceTree = "<group>"; };
 		78840C732BB3463D00278C27 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78840C762BB3463D00278C27 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		78840C782BB3463D00278C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		787D4ECB2BB5EC54001EEE0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				787D4ECC2BB5EC60001EEE0F /* SuperHeroes.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		78840C6A2BB3463D00278C27 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +162,8 @@
 		78840C952BB34FFB00278C27 /* Exercise2Weather */ = {
 			isa = PBXGroup;
 			children = (
+				787D4EB92BB57522001EEE0F /* WeatherView.swift */,
+				787D4EC52BB59E65001EEE0F /* WeatherViewModel.swift */,
 			);
 			path = Exercise2Weather;
 			sourceTree = "<group>";
@@ -145,6 +171,8 @@
 		78840C962BB3503C00278C27 /* Exercise3Profile */ = {
 			isa = PBXGroup;
 			children = (
+				787D4EBB2BB5752D001EEE0F /* ProfileView.swift */,
+				787D4EC72BB5AC3A001EEE0F /* ProfileViewModel.swift */,
 			);
 			path = Exercise3Profile;
 			sourceTree = "<group>";
@@ -152,6 +180,7 @@
 		78840C972BB3504400278C27 /* Exercise4TaskList */ = {
 			isa = PBXGroup;
 			children = (
+				787D4EBD2BB57539001EEE0F /* TaskListView.swift */,
 			);
 			path = Exercise4TaskList;
 			sourceTree = "<group>";
@@ -159,6 +188,9 @@
 		78840C982BB3505F00278C27 /* Exercise5Heroes */ = {
 			isa = PBXGroup;
 			children = (
+				787D4ECB2BB5EC54001EEE0F /* Resources */,
+				787D4EBF2BB5754B001EEE0F /* HeroesView.swift */,
+				787D4ECE2BB5ED00001EEE0F /* HeroesViewModel.swift */,
 			);
 			path = Exercise5Heroes;
 			sourceTree = "<group>";
@@ -221,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787D4ECD2BB5EC60001EEE0F /* SuperHeroes.json in Resources */,
 				78840C7E2BB3463E00278C27 /* Preview Assets.xcassets in Resources */,
 				78840C7B2BB3463E00278C27 /* Assets.xcassets in Resources */,
 			);
@@ -233,15 +266,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787D4EBA2BB57522001EEE0F /* WeatherView.swift in Sources */,
 				789081982BB4A56100BC40ED /* PlayerView.swift in Sources */,
+				787D4EC02BB5754B001EEE0F /* HeroesView.swift in Sources */,
 				7890819A2BB4B82A00BC40ED /* PlayerViewModel.swift in Sources */,
 				78840C8E2BB34BF600278C27 /* Poderes.swift in Sources */,
+				787D4EBC2BB5752D001EEE0F /* ProfileView.swift in Sources */,
 				78840C792BB3463D00278C27 /* ContentView.swift in Sources */,
 				78840C8F2BB34BF600278C27 /* HeroeDTO.swift in Sources */,
+				787D4EBE2BB57539001EEE0F /* TaskListView.swift in Sources */,
 				78840C8D2BB34BF600278C27 /* Heroe.swift in Sources */,
+				787D4EC62BB59E65001EEE0F /* WeatherViewModel.swift in Sources */,
 				78840C912BB34CBE00278C27 /* DataInteractor.swift in Sources */,
 				78840C772BB3463D00278C27 /* SwiftUIDemoApp.swift in Sources */,
+				787D4ECF2BB5ED00001EEE0F /* HeroesViewModel.swift in Sources */,
 				78840C862BB34A8500278C27 /* JSONLoader.swift in Sources */,
+				787D4EC82BB5AC3A001EEE0F /* ProfileViewModel.swift in Sources */,
 				78840C882BB34B7F00278C27 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

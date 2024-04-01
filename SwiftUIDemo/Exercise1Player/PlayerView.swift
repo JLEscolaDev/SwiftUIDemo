@@ -29,12 +29,11 @@ struct PlayerView: View {
                         Image(imageName)
                             .resizable()
                             .scaledToFill()
-                            .frame(width: geometry.size.width)
+                            .frame(width: geometry.size.width+2)
                             .offset(x: -2)
                             .clipped()
                             .rotation3DEffect(.degrees(180), axis: (x: 1, y: 0, z: 0))
                             .opacity(0.5)
-                        
                             .padding(.horizontal, max(geometry.safeAreaInsets.leading, geometry.safeAreaInsets.trailing)) // center the image
                     }.ignoresSafeArea(edges: .horizontal)
                 }.overlay {
@@ -107,45 +106,47 @@ struct PlayerView: View {
                             ImageCell(appSelector: items[index])
                                 .frame(height: ImageCell.height)
                                 .id(index)
+                                .listRowBackground(Color.clear) // Set the background of the list row to clear
                         }
-                    }.listStyle(.plain)
-                        .frame(width: .infinity, height: ImageCell.height)
-                    
-                        .padding(.horizontal, 50)
-                        .padding(.bottom, 25)
-                        .clipShape(RoundedRectangle(cornerSize: CGSize(width: 15, height: 15)))
-                        .clipped()
-                        .onChange(of: selectedIndex) { _ ,newIndex in
-                            withAnimation {
-                                value.scrollTo(newIndex, anchor: .center)
-                            }
+                    }
+                    .listStyle(.plain)
+                    .frame(height: ImageCell.height)
+                    .padding(.horizontal, 50)
+                    .padding(.bottom, 25)
+                    .background(Color.clear)
+                    .clipShape(RoundedRectangle(cornerSize: CGSize(width: 15, height: 15)))
+                    .clipped()
+                    .onChange(of: selectedIndex) { _, newIndex in
+                        withAnimation {
+                            value.scrollTo(newIndex, anchor: .center)
                         }
-                        .onAppear {
-                            UIScrollView.appearance().isScrollEnabled = false
-                            value.scrollTo(selectedIndex, anchor: .center)
-                        }
+                    }
+                    .onAppear {
+                        UIScrollView.appearance().isScrollEnabled = false
+                        value.scrollTo(selectedIndex, anchor: .center)
+                    }
                 }
+
             }
             .navigationBarTitle("Weather View", displayMode: .inline)
             .navigationDestination(for: PlayerViewModel.NextView.self) { view in
                 
                 switch view {
                     case .weather:
-                        Text("weather")
+                        WeatherView()
                     case .taskList:
-                        Text("taskList")
+                        TaskListView()
                     case .profile:
-                        Text("profile")
+                        ProfileView()
                     case .heroes:
-                        Text("heroes")
+                        HeroesView()
                 }
             }
-        }.padding().containerRelativeFrame([.horizontal, .vertical])
+        }.clipShape(RoundedRectangle(cornerSize: CGSize(width: 35, height: 35))).padding().containerRelativeFrame([.horizontal, .vertical])
             .background(Gradient(colors: [.blue, .red, .purple]).opacity(0.6))
-        
             .overlay {
                 ZStack {
-                    ForEach([20, 13, 8, 5], id: \.self) { width in
+                    ForEach([15, 13, 8, 5, 5, 5, 2], id: \.self) { width in
                         GradientRectangle(lineWidth: width)
                     }
                 }
